@@ -2,6 +2,8 @@ const { Builder, By, Key, until } = require('selenium-webdriver');
 const fs = require('fs-extra');
 
 let Credentials, driver;
+// get the Chrome driver here: http://chromedriver.storage.googleapis.com/index.html
+// them put it on your $PATH.
 
 async function login() {
 
